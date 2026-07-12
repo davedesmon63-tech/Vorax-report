@@ -17,7 +17,7 @@ function App() {
 
   const generateGmailLink = (type) => {
     const supportEmail = 'support@whatsapp.com';
-    const subject = `[Signalement] WhatsApp +${numero} - ${types[type].label}`;
+    const subject = `[report] WhatsApp +${numero} - ${types[type].label}`;
     const body = `Bonjour équipe WhatsApp,
 
 Je signale le numéro: +${numero}
@@ -46,8 +46,8 @@ Merci de traiter ce signalement.`;
 
   return (
     <div style={{maxWidth: 500, margin: '40px auto', padding: 20, fontFamily: 'system-ui'}}>
-      <h1>🚨 AntiScam CI</h1>
-      <p>Signale les arnaqueurs WhatsApp en 10s</p>
+      <h1>🚨 vorax-report</h1>
+      <p>ban en 10s</p>
 
       <input
         placeholder="+225 07 01 01 01"
